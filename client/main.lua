@@ -1,5 +1,5 @@
-RegisterNetEvent('esx_nightvision:useNightVision')
-AddEventHandler('esx_nightvision:useNightVision', function()
+RegisterNetEvent('esx_thermalvision:useThermalVision')
+AddEventHandler('esx_thermalvision:useThermalVision', function()
 	if IsNightvisionActive() then
 		SetNightvision(false)
 		SetSeethrough(false)
