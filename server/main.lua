@@ -2,6 +2,6 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-ESX.RegisterUsableItem('nightvision', function(source)
-    TriggerClientEvent('esx_nightvision:useNightVision', source)
+ESX.RegisterUsableItem('thermalvision', function(source)
+    TriggerClientEvent('esx_thermalvision:useThermalVision', source)
 end)
